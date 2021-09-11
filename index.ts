@@ -3,6 +3,7 @@ import axios from 'axios';
 const url = 'https://jsonplaceholder.typicode.com/todos/1'
 
   // Interface is used to define a structure of an object
+  // shortcuts and labels that a value has
   interface Todo {
     id: number;
     title: string;
